@@ -7,6 +7,7 @@ package integrador_gestion_hotel;
  */
 public class Recepcionista extends Persona{
     private String legajo;
+    private int entero;
     
     public Recepcionista(String nombre, String dni, String legajo){
         super(nombre,dni);
